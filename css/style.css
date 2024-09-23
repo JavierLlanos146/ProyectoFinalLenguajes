@@ -1,0 +1,168 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+}
+
+
+
+image {
+    width: 100%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+
+    text-align: center;
+}
+
+.header-logo {
+    width: 200px;
+    padding: 30px;
+    margin: 40px;
+}
+
+.container {
+    color: white;
+    padding: 10px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    padding-inline: 1rem;
+}
+
+.nav-item :hover{
+    color:  #fae182;
+}
+
+.contenedor {
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    color: #fae182;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+
+.texto__parrafo {
+    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+.flecha{
+    width: 100px;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.btn{
+margin-top: 30px;
+}
+
+.btn :hover{
+    background-color: #b08023;
+    border: #b08023;
+}
+
+.btn-primary {
+    background-color: #ffdf5f;
+    font-style: bolder;
+    padding: auto;
+    filter: drop-shadow(0 0 10px #ffdf5f);
+    border-color: #ffdf5f;
+    color: white;
+    font-weight: bold;
+}
+
+
+.titulo__joyas{
+    padding: 40px;
+}
+
+.joyas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    color: #b08023;
+}
+
+.card {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px;
+}
+
+.producto__imagen {
+    height: 300px;
+    width: 300px;
+}
+
+.servicios__titulo {
+    text-align: center;
+    padding: 60px;
+    color:#fae182;
+}
+
+.orden {
+    text-align: center;
+    color: white;
+}
+
+.eslogan {
+    color: #fae182;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.boton__servicios {
+    text-align: center;
+    background-color:#fae182;
+    padding: 1px;
+    margin: 10px 500px;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 10px white);
+}
+.boton__servicios :hover {
+    color:#b08023;
+
+}
+
+.boton__servicios-estilo {
+    color: white;
+    text-decoration: none;
+}
+
+.contenedores {
+    color: white;
+    padding: 80px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
+
+.logo__redes-sociales {
+    width: 50px;
+    padding: 10px;
+}
+
+a {
+    color: transparent;
+}
+
+.btn__enviar :hover{
+ background-color: #b08023;
+ border-color: #b08023;
+}
